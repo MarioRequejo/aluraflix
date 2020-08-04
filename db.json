@@ -2,20 +2,230 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
-      "cor": "#6BD1FF",
+      "titulo": "Jogos",
+      "cor": "blue"
+    },
+    {
+      "id": 2,
+      "titulo": "Teasers & Trailers",
+      "cor": "red",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Teaser and Trailers de filmes e séries"
       }
+    },
+    {
+      "id": 3,
+      "titulo": "Humor",
+      "cor": "#e25822",
+      "link_extra": {
+        "text": "O melhor do humor",
+        "url": "https://www.youtube.com/channel/UCRVWM5A-jDLZUCynC7WZK0A"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Culinária",
+      "cor": "#FFBF00"
+    },
+    {
+      "id": 5,
+      "titulo": "Maquiagem",
+      "cor": "pink"
+    },
+    {
+      "id": 6,
+      "titulo": "Gatos",
+      "cor": "green"
     }
+
    ],
   "videos": [
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-    }
+      "titulo": "The Asteroid Field",
+      "url": "https://www.youtube.com/watch?v=Tk7TBJBF-Bo"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Mei Spotlight",
+      "url": "https://www.youtube.com/watch?v=qX_YBY_tRJI"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Star Wars: Squadrons – Trailer de jogabilidade oficial",
+      "url": "https://www.youtube.com/watch?v=nCcfJ9uEwvs"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Watch Dogs: Legion - Time Melhor Idade",
+      "url": "https://www.youtube.com/watch?v=bB3akZJtUbA&list=PLD8B38450BA2052F7"
+    },
+    {
+      "id": 5,
+      "categoriaId": 2,
+      "titulo": "VIÚVA NEGRA",
+      "url": "https://www.youtube.com/watch?v=ZB7dP4I7NyA"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Foundation — Teaser | Apple TV+",
+      "url": "https://www.youtube.com/watch?v=xgbPSA94Rqg"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "The Boys • Trailer Final Legendado",
+      "url": "https://www.youtube.com/watch?v=BxmSk_pv8tE"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Power, com Jamie Foxx | Trailer oficial | Netflix",
+      "url": "https://www.youtube.com/watch?v=4NZhwESwQfk"
+    }, 
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "TENET",
+      "url": "https://www.youtube.com/watch?v=ZyPCLM6iG9U"
+    },
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "titulo": "THIAGO VENTURA - TIGAS E OS 300 DE ESPARTA",
+      "url": "https://www.youtube.com/watch?v=75fK0iwhxdE"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "Murilo Couto - Fazendo Suas Graça",
+      "url": "https://www.youtube.com/watch?v=FTZipdQWlv0"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "DEUS",
+      "url": "https://www.youtube.com/watch?v=t11JYaJcpxg"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Hermanoteu na Terra de Godah Parte 1 de 22 - O Princípio - Os Melhores do Mundo",
+      "url": "https://www.youtube.com/watch?v=iosScPSTF8o&list=PLPtwO5ewXmbWztnz-6BmvdxeX73f9_YbR"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Chaves Estranho - Kiko - Coringa (Trailer)",
+      "url": "https://www.youtube.com/watch?v=2Pzw-LICT_A"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Bolsonaro e Ministros cantam \"Lava uma Mão\"",
+      "url": "https://www.youtube.com/watch?v=uPMcf1ceOf4"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Terça Insana - Irmã Selma",
+      "url": "https://www.youtube.com/watch?v=0_AEhhdo6xE"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Mussum na Delegacia - Trapalhões",
+      "url": "https://www.youtube.com/watch?v=AHio-EoZdHI"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Marinando - Falafel frito e assado (com João Gordo)",
+      "url": "https://www.youtube.com/watch?v=zNzPza7duJ4"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "MOLHO BRANCO com GABRIEL O PENSADOR (Chef: Adriele Madana)",
+      "url": "https://www.youtube.com/watch?v=QEYLIjpfaj0"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "MONSTRO NA COZINHA - Batata doce, Frango e Panqueca de Whey",
+      "url": "https://www.youtube.com/watch?v=HokyEdjb2HU"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Como abrir e cortar abóbora?",
+      "url": "https://www.youtube.com/watch?v=QzPMxFXWRtM"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "DICAS PARA INICIANTES: APRENDA DE UMA VEZ a se maquiar!",
+      "url": "https://www.youtube.com/watch?v=LjDAVgsPCxY"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "TUTORIAL MAKE BÁSICA PARA INICIANTES - PASSO A PASSO!",
+      "url": "https://www.youtube.com/watch?v=0U-jmmeM1eU"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Tutorial de Canal de Maquiagem | Gaveta Show #26",
+      "url": "https://www.youtube.com/watch?v=3QGso7a3mG8"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "8 Ideias de Maquiagens Estranhas – Faça Você Mesmo / Maquiagem de Super-herói",
+      "url": "https://www.youtube.com/watch?v=j6X2qT5axV4"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Os Melhores Tutoriais de Maquiagem para os olhos / Glam Makeup Tutorial Compilation #162",
+      "url": "https://www.youtube.com/watch?v=1uQDy5-yT9Y"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "TENTE NÃO RIR OS VÍDEOS DE GATOS MAIS ENGRAÇADOS ",
+      "url": "https://www.youtube.com/watch?v=zbDQgFtce5M"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Gatos vs Balão ",
+      "url": "https://www.youtube.com/watch?v=tdQR8GNUE_k"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Jogos para gatos. A barata. Vídeo para gatos",
+      "url": "https://www.youtube.com/watch?v=6iR9hdkPrTM"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Os gatos mais adoráveis ​​do mundo EP1 vida bonito",
+      "url": "https://www.youtube.com/watch?v=b8iTTiU7Ot0"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Gatos engraçados",
+      "url": "https://www.youtube.com/watch?v=Ud0bP7EYfoQ"
+    }        
+
   ]
 }

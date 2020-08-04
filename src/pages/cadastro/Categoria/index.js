@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import useForm from '../../../hooks/useForm';
+
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -9,7 +11,10 @@ function CadastroCategoria() {
     descricao: '',
     cor: '',
   };
+
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
   const [categorias, setCategorias] = useState([]);
+  /*
   const [values, setValues] = useState(valoresIniciais);
 
   function setValue(chave, valor) {
@@ -19,6 +24,7 @@ function CadastroCategoria() {
       [chave]: valor, // nome: 'valor'
     });
   }
+  
 
   function handleChange(infosDoEvento) {
     setValue(
@@ -26,7 +32,7 @@ function CadastroCategoria() {
       infosDoEvento.target.value,
     );
   }
-
+  */
   // ============
 
   useEffect(() => {
@@ -36,7 +42,9 @@ function CadastroCategoria() {
         .then(async (respostaDoServer) => {
           if (respostaDoServer.ok) {
             const resposta = await respostaDoServer.json();
-            setCategorias(resposta);
+            setCategorias([
+              ...resposta,
+            ]);
             return;
           }
           throw new Error('Não foi possível pegar os dados');
@@ -59,7 +67,8 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        //setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
@@ -73,7 +82,7 @@ function CadastroCategoria() {
 
         <FormField
           label="Descrição:"
-          type="????"
+          type="textarea"
           name="descricao"
           value={values.descricao}
           onChange={handleChange}
@@ -114,9 +123,15 @@ function CadastroCategoria() {
         </button>
       </form>
 
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}  
+
       <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.id}`}>
+        {categorias.map((categoria, indice) => (
+          <li key={`${categoria}${indice}`}>
             {categoria.titulo}
           </li>
         ))}

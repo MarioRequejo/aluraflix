@@ -1,183 +1,175 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Jogos",
+      "cor": "blue",
+      
+      "videos": [
+        {
+          "titulo": "The Asteroid Field",
+          "url": "https://www.youtube.com/watch?v=Tk7TBJBF-Bo"
+        },
+        {
+          "titulo": "Mei Spotlight",
+          "url": "https://www.youtube.com/watch?v=qX_YBY_tRJI"
+        },
+        {
+          "titulo": "Star Wars: Squadrons – Trailer de jogabilidade oficial",
+          "url": "https://www.youtube.com/watch?v=nCcfJ9uEwvs"
+        },
+        {
+          "titulo": "Watch Dogs: Legion - Time Melhor Idade",
+          "url": "https://www.youtube.com/watch?v=bB3akZJtUbA&list=PLD8B38450BA2052F7"
+        }
+      ]
+    },
+    {
+      "titulo": "Teasers & Trailers",
+      "cor": "red",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Teaser and Trailers de filmes e séries"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "VIÚVA NEGRA",
+          "url": "https://www.youtube.com/watch?v=ZB7dP4I7NyA"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Foundation — Teaser | Apple TV+",
+          "url": "https://www.youtube.com/watch?v=xgbPSA94Rqg"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "The Boys • Trailer Final Legendado",
+          "url": "https://www.youtube.com/watch?v=BxmSk_pv8tE"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Power, com Jamie Foxx | Trailer oficial | Netflix",
+          "url": "https://www.youtube.com/watch?v=4NZhwESwQfk"
+        }, 
+        {
+          "titulo": "TENET",
+          "url": "https://www.youtube.com/watch?v=ZyPCLM6iG9U"
+        }
+      ]
+    },
+    {
+      "titulo": "Humor",
+     
+      "cor": "#e25822",
+      "link_extra": {
+        "text": "O melhor do humor",
+        "url": "https://www.youtube.com/channel/UCRVWM5A-jDLZUCynC7WZK0A"
+      },
+      "videos": [
+        {
+          "titulo": "THIAGO VENTURA - TIGAS E OS 300 DE ESPARTA",
+          "url": "https://www.youtube.com/watch?v=75fK0iwhxdE"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Murilo Couto - Fazendo Suas Graça",
+          "url": "https://www.youtube.com/watch?v=FTZipdQWlv0"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "DEUS",
+          "url": "https://www.youtube.com/watch?v=t11JYaJcpxg"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Hermanoteu na Terra de Godah Parte 1 de 22 - O Princípio - Os Melhores do Mundo",
+          "url": "https://www.youtube.com/watch?v=iosScPSTF8o&list=PLPtwO5ewXmbWztnz-6BmvdxeX73f9_YbR"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Chaves Estranho - Kiko - Coringa (Trailer)",
+          "url": "https://www.youtube.com/watch?v=2Pzw-LICT_A"
+        },
+        {
+          "titulo": "Bolsonaro e Ministros cantam \"Lava uma Mão\"",
+          "url": "https://www.youtube.com/watch?v=uPMcf1ceOf4"
+        },
+        {
+          "titulo": "Terça Insana - Irmã Selma",
+          "url": "https://www.youtube.com/watch?v=0_AEhhdo6xE"
+        },
+        {
+          "titulo": "Mussum na Delegacia - Trapalhões",
+          "url": "https://www.youtube.com/watch?v=AHio-EoZdHI"
         }        
       ]
     },
+    
+    
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
+      "titulo": "Culinária",
+      "cor": "#FFBF00",
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Marinando - Falafel frito e assado (com João Gordo)",
+          "url": "https://www.youtube.com/watch?v=zNzPza7duJ4"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "MOLHO BRANCO com GABRIEL O PENSADOR (Chef: Adriele Madana)",
+          "url": "https://www.youtube.com/watch?v=QEYLIjpfaj0"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "MONSTRO NA COZINHA - Batata doce, Frango e Panqueca de Whey",
+          "url": "https://www.youtube.com/watch?v=HokyEdjb2HU"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
-        {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Como abrir e cortar abóbora?",
+          "url": "https://www.youtube.com/watch?v=QzPMxFXWRtM"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
+      "titulo": "Maquiagem",
+      "cor": "pink",
+      
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "DICAS PARA INICIANTES: APRENDA DE UMA VEZ a se maquiar!",
+          "url": "https://www.youtube.com/watch?v=LjDAVgsPCxY"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "TUTORIAL MAKE BÁSICA PARA INICIANTES - PASSO A PASSO!",
+          "url": "https://www.youtube.com/watch?v=0U-jmmeM1eU"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Tutorial de Canal de Maquiagem | Gaveta Show #26",
+          "url": "https://www.youtube.com/watch?v=3QGso7a3mG8"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "8 Ideias de Maquiagens Estranhas – Faça Você Mesmo / Maquiagem de Super-herói",
+          "url": "https://www.youtube.com/watch?v=j6X2qT5axV4"
+        },
+        {
+          "titulo": "Os Melhores Tutoriais de Maquiagem para os olhos / Glam Makeup Tutorial Compilation #162",
+          "url": "https://www.youtube.com/watch?v=1uQDy5-yT9Y"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Gatos",
+      "cor": "green",
+      
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "TENTE NÃO RIR OS VÍDEOS DE GATOS MAIS ENGRAÇADOS ",
+          "url": "https://www.youtube.com/watch?v=zbDQgFtce5M"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Gatos vs Balão ",
+          "url": "https://www.youtube.com/watch?v=tdQR8GNUE_k"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Jogos para gatos. A barata. Vídeo para gatos",
+          "url": "https://www.youtube.com/watch?v=6iR9hdkPrTM"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Os gatos mais adoráveis ​​do mundo EP1 vida bonito",
+          "url": "https://www.youtube.com/watch?v=b8iTTiU7Ot0"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
-    },
-    {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
-      "videos": [
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Gatos engraçados",
+          "url": "https://www.youtube.com/watch?v=Ud0bP7EYfoQ"
         }
       ]
     }
